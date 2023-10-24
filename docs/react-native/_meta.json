@@ -3,7 +3,6 @@
   {
     "type": "dir",
     "name": "build",
-    "label": "构建",
-    "collapsable": true
+    "label": "构建"
   }
 ]

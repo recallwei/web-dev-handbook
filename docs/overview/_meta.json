@@ -8,21 +8,21 @@
   {
     "type": "custom-link",
     "label": "React",
-    "link": "/react/"
+    "link": "/react/index"
   },
   {
     "type": "custom-link",
     "label": "Next.js",
-    "link": "/nextjs/"
+    "link": "/nextjs/index"
   },
   {
     "type": "custom-link",
     "label": "React Native",
-    "link": "/react-native/"
+    "link": "/react-native/index"
   },
   {
     "type": "custom-link",
     "label": "Nest.js",
-    "link": "/nestjs/"
+    "link": "/nestjs/index"
   }
 ]
