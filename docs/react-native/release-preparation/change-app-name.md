@@ -23,4 +23,4 @@ iOS 应用名称定义在 `/ios/PROJECT_NAME/Info.plist` 文件中，修改 `CFB
 
 ## 参考
 
-- [How to change the app name in react-native(in android and IOS):](https://dev.to/zenkoders/how-to-change-the-app-name-in-react-nativein-android-and-ios-573i)
+- [How to change the app name in react-native(in android and IOS)](https://dev.to/zenkoders/how-to-change-the-app-name-in-react-nativein-android-and-ios-573i)
