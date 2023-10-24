@@ -16,7 +16,7 @@ export default defineConfig({
     footer: {
       message: 'Made with ❤️ by Bruce Song'
     },
-    outlineTitle: 'Outline',
+    outlineTitle: '目录',
     lastUpdated: true,
     lastUpdatedText: '上次更新',
     prevPageText: '上一页',
