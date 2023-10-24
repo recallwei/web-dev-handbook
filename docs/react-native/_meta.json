@@ -2,7 +2,7 @@
   "index",
   {
     "type": "dir",
-    "name": "build",
-    "label": "构建"
+    "name": "release-preparation",
+    "label": "发布准备"
   }
 ]
