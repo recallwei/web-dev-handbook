@@ -7,6 +7,8 @@ nestjs
 preinstall
 recallwei
 rspress
+tamagui
 Taskward
 weixin
 xcassets
+Zustand

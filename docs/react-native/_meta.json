@@ -1,8 +1,8 @@
 [
   "index",
-  {
-    "type": "dir",
-    "name": "release-preparation",
-    "label": "发布准备"
-  }
+  { "type": "dir", "name": "tech-stack", "label": "技术栈" },
+  { "type": "dir", "name": "build", "label": "构建" },
+  { "type": "dir", "name": "release-preparation", "label": "发布准备" },
+  { "type": "dir", "name": "others", "label": "其他问题" },
+  { "type": "dir", "name": "faq", "label": "FAQ" }
 ]
