@@ -8,4 +8,6 @@
 
 ## TypeScript 中使用
 
-[React Navigation native-stack TypeScript type annotation](https://jscrambler.com/blog/getting-started-with-react-navigation-v6-and-typescript-in-react-native)
+## 参考
+
+- [React Navigation native-stack TypeScript type annotation](https://jscrambler.com/blog/getting-started-with-react-navigation-v6-and-typescript-in-react-native)
