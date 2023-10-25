@@ -1,6 +1,8 @@
 appiconset
 brucesong
+cocoapods
 esbuild
+gradlew
 juejin
 mipmap
 nestjs
@@ -11,4 +13,5 @@ tamagui
 Taskward
 weixin
 xcassets
+xcodebuild
 Zustand

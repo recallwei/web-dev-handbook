@@ -6,6 +6,8 @@
 
 ## 如何设计 Tabs screen 和 Stack screens
 
+## 下拉刷新
+
 ## TypeScript 中使用
 
 ## 参考

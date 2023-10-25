@@ -1,4 +1,8 @@
-# react-native-flipper
+# 常见构建失败的解决方案
+
+## Android 更新 react-native-reanimated 导致构建失败
+
+原因是 `react-native-reanimated` 安装了多个版本，导致了冲突，需要删除 node_modules，再重新安装依赖。
 
 ## Android 构建 react-native-flipper 失败
 
