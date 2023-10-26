@@ -6,6 +6,7 @@ gradlew
 juejin
 mipmap
 nestjs
+nextjs
 preinstall
 recallwei
 rspress
