@@ -24,5 +24,10 @@
     "type": "custom-link",
     "label": "Nest.js",
     "link": "/nestjs/index"
+  },
+  {
+    "type": "custom-link",
+    "label": "Linux",
+    "link": "/linux/index"
   }
 ]

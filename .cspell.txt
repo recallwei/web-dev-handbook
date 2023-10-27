@@ -2,6 +2,7 @@ appiconset
 brucesong
 cocoapods
 esbuild
+firewalld
 gradlew
 juejin
 mipmap
