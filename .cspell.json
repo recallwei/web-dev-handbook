@@ -24,6 +24,7 @@
     "**/**/CONTRIBUTORS.md",
     "pnpm-lock.yaml",
     "README.md",
-    "doc_build"
+    "doc_build",
+    "docs/_meta.json"
   ]
 }

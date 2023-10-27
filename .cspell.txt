@@ -1,6 +1,7 @@
 appiconset
 brucesong
 cocoapods
+containerd
 esbuild
 firewalld
 gradlew
