@@ -14,7 +14,7 @@ recallwei
 rspress
 tamagui
 Taskward
-weixin
+wechat
 xcassets
 xcodebuild
 Zustand

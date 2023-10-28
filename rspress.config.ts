@@ -40,7 +40,7 @@ export default defineConfig({
         content: 'https://juejin.cn/user/4117044626470823'
       },
       {
-        icon: 'weixin',
+        icon: 'wechat',
         mode: 'text',
         content: '微信号: Recall4056'
       },
