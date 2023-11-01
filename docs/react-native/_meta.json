@@ -1,12 +1,32 @@
 [
   "index",
-  { "type": "dir", "name": "tech-stack", "label": "技术栈" },
+  {
+    "type": "dir",
+    "name": "tech-stack",
+    "label": "技术栈",
+    "collapsed": true
+  },
   "environment",
-  { "type": "dir", "name": "development", "label": "开发" },
-  { "type": "dir", "name": "components", "label": "组件" },
-  { "type": "dir", "name": "build", "label": "构建" },
-  { "type": "dir", "name": "release-preparation", "label": "发布准备" },
-  { "type": "dir", "name": "release-test", "label": "发布测试版本" },
-  { "type": "dir", "name": "release-to-store", "label": "发布至应用商店" },
-  { "type": "dir", "name": "faq", "label": "FAQ" }
+  { "type": "dir", "name": "development", "label": "开发", "collapsed": true },
+  { "type": "dir", "name": "components", "label": "组件", "collapsed": true },
+  { "type": "dir", "name": "build", "label": "构建", "collapsed": true },
+  {
+    "type": "dir",
+    "name": "release-preparation",
+    "label": "发布准备",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "release-test",
+    "label": "发布测试版本",
+    "collapsed": true
+  },
+  {
+    "type": "dir",
+    "name": "release-to-store",
+    "label": "发布至应用商店",
+    "collapsed": true
+  },
+  { "type": "dir", "name": "faq", "label": "FAQ", "collapsed": true }
 ]

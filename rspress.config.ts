@@ -9,9 +9,6 @@ export default defineConfig({
   description: 'My personal web dev learning records.',
   icon: '/bit-ocean.png',
   logo: '/bit-ocean.png',
-  route: {
-    cleanUrls: true
-  },
   themeConfig: {
     footer: {
       message: 'Made with ❤️ by Bruce Song'
