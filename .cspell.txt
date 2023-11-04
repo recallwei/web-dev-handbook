@@ -18,6 +18,7 @@ rspress
 tamagui
 Taskward
 wechat
+WORKDIR
 wyrctf
 xcassets
 xcodebuild
