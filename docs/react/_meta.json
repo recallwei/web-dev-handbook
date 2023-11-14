@@ -1,8 +1,8 @@
 [
   "index",
   {
-    "type": "dir",
+    "label": "React Hooks",
     "name": "hooks",
-    "label": "React Hooks"
+    "type": "dir"
   }
 ]

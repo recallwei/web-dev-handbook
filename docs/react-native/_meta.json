@@ -1,33 +1,58 @@
 [
   "index",
   {
-    "type": "dir",
-    "name": "tech-stack",
+    "collapsed": true,
     "label": "技术栈",
-    "collapsed": true
+    "name": "tech-stack",
+    "type": "dir"
   },
   "environment",
-  { "type": "dir", "name": "development", "label": "开发", "collapsed": true },
-  { "type": "dir", "name": "components", "label": "组件", "collapsed": true },
-  { "type": "dir", "name": "build", "label": "构建", "collapsed": true },
-  { "type": "dir", "name": "techniques", "label": "技术", "collapsed": true },
   {
-    "type": "dir",
-    "name": "release-preparation",
+    "collapsed": true,
+    "label": "开发",
+    "name": "development",
+    "type": "dir"
+  },
+  {
+    "collapsed": true,
+    "label": "组件",
+    "name": "components",
+    "type": "dir"
+  },
+  {
+    "collapsed": true,
+    "label": "构建",
+    "name": "build",
+    "type": "dir"
+  },
+  {
+    "collapsed": true,
+    "label": "技术",
+    "name": "techniques",
+    "type": "dir"
+  },
+  {
+    "collapsed": true,
     "label": "发布准备",
-    "collapsed": true
+    "name": "release-preparation",
+    "type": "dir"
   },
   {
-    "type": "dir",
-    "name": "release-test",
+    "collapsed": true,
     "label": "发布测试版本",
-    "collapsed": true
+    "name": "release-test",
+    "type": "dir"
   },
   {
-    "type": "dir",
-    "name": "release-to-store",
+    "collapsed": true,
     "label": "发布至应用商店",
-    "collapsed": true
+    "name": "release-to-store",
+    "type": "dir"
   },
-  { "type": "dir", "name": "faq", "label": "FAQ", "collapsed": true }
+  {
+    "collapsed": true,
+    "label": "FAQ",
+    "name": "faq",
+    "type": "dir"
+  }
 ]

@@ -4,6 +4,7 @@ cocoapods
 containerd
 esbuild
 firewalld
+georstat
 gradlew
 jsbundle
 juejin

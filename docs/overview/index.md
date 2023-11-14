@@ -1,8 +1,8 @@
 # 概览
 
-- [TypeScript](/docs/typescript/)
-- [React](/docs/react/)
-- [Next.js](/docs/nextjs/)
-- [React Native](/docs/react-native/)
-- [Nest.js](/docs/nestjs/)
-- [Linux](/docs/linux/)
+- [TypeScript](/typescript/)
+- [React](/react/)
+- [Next.js](/nextjs/)
+- [React Native](/react-native/)
+- [Nest.js](/nestjs/)
+- [Linux](/linux/)
