@@ -19,8 +19,7 @@ export default defineConfig({
     prevPageText: '上一篇',
     nextPageText: '下一篇',
     editLink: {
-      docRepoBaseUrl:
-        'https://github.com/recallwei/web-dev-handbook/tree/main/docs',
+      docRepoBaseUrl: 'https://github.com/recallwei/web-dev-handbook/tree/main/docs',
       text: '📝 在 GitHub 上编辑此页'
     },
     hideNavbar: 'auto',
@@ -54,7 +53,6 @@ export default defineConfig({
     ]
   },
   markdown: {
-    // checkDeadLinks: true,
     showLineNumbers: true
   }
 })
