@@ -62,8 +62,8 @@ dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce
 dnf update
 dnf install docker-ce docker-ce-cli containerd.io
 systemctl start docker # 启动 Docker
-systemctl enable docker # 设置 Docker 开机自启
-docker --version # 查看 Docker 版本
+systemctl enable docker # 设置开机自启
+docker --version # 查看版本
 ```
 
 ## Docker 中运行 PostgreSQL
@@ -86,5 +86,5 @@ pnpm dev:pm2 # pm2 运行 Nest API
 ```bash
 dnf install nginx
 systemctl start nginx # 启动 Nginx
-systemctl enable nginx # 设置 Nginx 开机自启
+systemctl enable nginx # 设置开机自启
 ```

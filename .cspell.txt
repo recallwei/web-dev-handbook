@@ -4,6 +4,7 @@ cocoapods
 containerd
 esbuild
 firewalld
+fontconfig
 georstat
 gradlew
 jsbundle
@@ -16,6 +17,8 @@ preinstall
 pwxj
 recallwei
 rspress
+SERV
+sysconfig
 tamagui
 Taskward
 wechat
@@ -24,4 +27,5 @@ wyrctf
 xcassets
 xcodebuild
 xcodeproj
+YOURPORT
 Zustand
