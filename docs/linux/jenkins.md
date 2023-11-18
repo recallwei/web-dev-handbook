@@ -54,7 +54,7 @@ vi /etc/sysconfig/jenkins
 添加或修改 `JENKINS_PORT` 为你想要的端口，例如 `9090`。
 
 ```bash
-JENKINS_PORT="9090"
+HTTP_PORT="8088"
 ```
 
 修改完端口后，重启 Jenkins 服务。
@@ -67,10 +67,26 @@ systemctl restart jenkins
 
 打开浏览器访问 IP + Jenkins 端口号，例如 `http://x.x.x.x:8080`，如果你修改了端口，就输入你修改的端口。
 
-初始化的时候如果修改端口需要设置 Jenkins 实例的 URL，例如 `http://x.x.x.x:9090`。
+初始化的时候如果修改端口需要设置 Jenkins 实例的 URL，例如 `http://x.x.x.x:8088`。
 
 ## 查看初始化后的管理员密码
 
 ```bash
 cat /var/lib/jenkins/secrets/initialAdminPassword
+```
+
+## 忘记 Jenkins 密码
+
+如果忘记了 Jenkins 密码，可以通过修改配置文件的方式重置密码。将配置文件中的 `useSecurity` 设置为 `false`，然后重启 Jenkins 服务。
+
+```bash
+vi /var/lib/jenkins/config.xml
+```
+
+```xml
+<useSecurity>false</useSecurity>
+```
+
+```bash
+systemctl restart jenkins
 ```
