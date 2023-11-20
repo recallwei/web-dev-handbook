@@ -1,1 +1,12 @@
-["index", "command", "nano", "firewall", "init-centos", "jenkins", "faq"]
+[
+  "index",
+  "command",
+  "nano",
+  "firewall",
+  "init-centos",
+  "nginx",
+  "domain",
+  "certbot",
+  "jenkins",
+  "faq"
+]

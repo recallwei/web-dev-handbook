@@ -1,5 +1,7 @@
 appiconset
 brucesong
+certbot
+certonly
 cocoapods
 containerd
 esbuild
@@ -13,6 +15,7 @@ mipmap
 nestjs
 nextjs
 pbxproj
+POSTROUTING
 preinstall
 pwxj
 recallwei

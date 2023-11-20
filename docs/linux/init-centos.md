@@ -73,18 +73,31 @@ docker run --name postgresql-container -e POSTGRES_PASSWORD=your_password -p 543
 docker ps # 查看正在运行的容器
 ```
 
+## 安装 Docker Compose
+
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version # 查看版本
+```
+
+## 解决 Docker 网络配置问题
+
+清除 Docker 网络配置，然后重新运行 Docker。
+
+```bash
+sudo iptables -t nat -F
+sudo iptables -t mangle -F
+sudo iptables -P INPUT ACCEPT
+sudo iptables -P FORWARD ACCEPT
+sudo iptables -P OUTPUT ACCEPT
+sudo iptables -t nat -A POSTROUTING -s 172.17.0.0/16 ! -o docker0 -j MASQUERADE
+```
+
 ## 运行 Nest API
 
 ```bash
 pnpm i # 安装依赖
 pnpm prisma:migrate:dev # 执行数据库迁移
 pnpm dev:pm2 # pm2 运行 Nest API
-```
-
-## 安装 Nginx
-
-```bash
-dnf install nginx
-systemctl start nginx # 启动 Nginx
-systemctl enable nginx # 设置开机自启
 ```
