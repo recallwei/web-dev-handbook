@@ -19,7 +19,7 @@ dnf --version # 查看版本
 ## dnf 更新包版本
 
 ```bash
-dnf update
+dnf update -y
 ```
 
 ## 安装 Git
@@ -33,7 +33,7 @@ dnf install -y git
 ```bash
 dnf module list nodejs # 查看 Node 可用版本
 dnf module enable nodejs:18 # 启用 Node 18
-dnf install nodejs # 安装 Node
+dnf install -y nodejs # 安装 Node
 ```
 
 ## 安装 n 模块
@@ -60,7 +60,7 @@ npm i -g pnpm
 ```bash
 dnf config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
 dnf update
-dnf install docker-ce docker-ce-cli containerd.io
+dnf install -y docker-ce docker-ce-cli containerd.io
 systemctl start docker # 启动 Docker
 systemctl enable docker # 设置开机自启
 docker --version # 查看版本
@@ -92,12 +92,4 @@ sudo iptables -P INPUT ACCEPT
 sudo iptables -P FORWARD ACCEPT
 sudo iptables -P OUTPUT ACCEPT
 sudo iptables -t nat -A POSTROUTING -s 172.17.0.0/16 ! -o docker0 -j MASQUERADE
-```
-
-## 运行 Nest API
-
-```bash
-pnpm i # 安装依赖
-pnpm prisma:migrate:dev # 执行数据库迁移
-pnpm dev:pm2 # pm2 运行 Nest API
 ```

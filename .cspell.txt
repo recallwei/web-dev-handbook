@@ -4,6 +4,7 @@ certbot
 certonly
 cocoapods
 containerd
+epel
 esbuild
 firewalld
 fontconfig

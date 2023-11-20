@@ -3,7 +3,7 @@
 ## 安装 Nginx
 
 ```bash
-dnf install nginx
+dnf install -y nginx
 systemctl start nginx # 启动 Nginx
 systemctl enable nginx # 设置开机自启
 ```

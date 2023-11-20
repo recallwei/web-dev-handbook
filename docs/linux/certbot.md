@@ -11,7 +11,8 @@ certbot 是一个免费的证书申请工具，可以用来申请 let's encrypt 
 ### 通过 Linux 包管理器安装
 
 ```bash
-dnf install certbot python3-certbot-nginx
+dnf install -y epel-release
+dnf install -y certbot python3-certbot-nginx
 ```
 
 ## 申请证书
