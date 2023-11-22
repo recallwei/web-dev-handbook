@@ -16,7 +16,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "rspress": "^1.7.1"
+    "rspress": "^1.7.3"
   },
   "devDependencies": {
     "@brucesong/eslint-config-react": "^1.0.18",
