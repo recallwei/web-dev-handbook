@@ -16,20 +16,20 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "rspress": "^1.7.3"
+    "rspress": "^1.8.2"
   },
   "devDependencies": {
-    "@brucesong/eslint-config-react": "^1.0.18",
+    "@brucesong/eslint-config-react": "^1.0.19",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
-    "@types/node": "^20.9.4",
+    "@types/node": "^20.10.4",
     "commitizen": "^4.3.0",
-    "cspell": "^8.0.0",
-    "cz-git": "^1.7.1",
-    "eslint": "^8.54.0",
+    "cspell": "^8.1.3",
+    "cz-git": "^1.8.0",
+    "eslint": "^8.55.0",
     "husky": "^8.0.3",
-    "lint-staged": "^15.1.0",
-    "prettier": "^3.1.0"
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1"
   },
   "config": {
     "commitizen": {

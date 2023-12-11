@@ -2,6 +2,7 @@
   "index",
   "command",
   "nano",
+  "ssh",
   "firewall",
   "init-centos",
   "nginx",
