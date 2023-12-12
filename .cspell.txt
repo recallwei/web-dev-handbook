@@ -10,9 +10,11 @@ firewalld
 fontconfig
 georstat
 gradlew
+INITDB
 jsbundle
 juejin
 mipmap
+mongosh
 nestjs
 nextjs
 pbxproj
