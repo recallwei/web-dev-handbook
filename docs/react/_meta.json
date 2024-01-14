@@ -1,1 +1,13 @@
-["index", { "label": "React Hooks", "name": "hooks", "type": "dir" }]
+[
+  "index",
+  {
+    "label": "React Hooks",
+    "name": "hooks",
+    "type": "dir"
+  },
+  {
+    "label": "Tanstack Query",
+    "name": "tanstack-query",
+    "type": "dir"
+  }
+]
