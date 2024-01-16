@@ -22,14 +22,14 @@
     "@brucesong/eslint-config-react": "^1.0.20",
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
-    "@types/node": "^20.10.6",
+    "@types/node": "^20.11.3",
     "commitizen": "^4.3.0",
     "cspell": "^8.3.2",
     "cz-git": "^1.8.0",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
-    "prettier": "^3.1.1"
+    "prettier": "^3.2.2"
   },
   "config": {
     "commitizen": {
