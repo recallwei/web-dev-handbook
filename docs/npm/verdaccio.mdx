@@ -1,0 +1,122 @@
+import { PackageManagerTabs } from '@theme'
+import { SourceCode } from '@theme'
+import { Steps } from '@theme'
+
+# Verdaccio
+
+## 安装
+
+### 包管理器
+
+<PackageManagerTabs command="install -g verdaccio" />
+
+### Docker
+
+```bash
+docker pull verdaccio/verdaccio
+docker run -it --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
+```
+
+通过守护进程运行，添加 `-d` 参数：
+
+```bash
+docker run -it -d --rm --name verdaccio -p 4873:4873 verdaccio/verdaccio
+```
+
+### Docker Compose
+
+```yaml
+services:
+  verdaccio:
+    image: verdaccio/verdaccio
+    container_name: verdaccio
+    ports:
+      - '4873:4873'
+    volumes:
+      - './storage:/verdaccio/storage'
+      - './conf:/verdaccio/conf'
+    environment:
+      - VERDACCIO_PORT=4873
+      - VERDACCIO_PUBLIC_URL=
+volumes:
+  verdaccio:
+    driver: local
+```
+
+## CLI
+
+进入 Verdaccio 命令行：
+
+```bash
+verdaccio
+```
+
+## 设置代理
+
+### 全局设置代理
+
+<PackageManagerTabs command="config set registry http://localhost:4873" />
+
+### 指定库设置代理
+
+<PackageManagerTabs command="install lodash --registry http://localhost:4873" />
+
+### 使用 .npmrc 设置代理
+
+全局设置代理：
+
+```bash title=".npmrc"
+registry=http://localhost:4873
+```
+
+指定域设置代理：
+
+```bash title=".npmrc"
+@domain:registry=http://localhost:4873
+```
+
+### 使用 .yarnrc 设置代理
+
+```bash title=".yarnrc"
+registry "http://localhost:4873"
+```
+
+## 创建用户
+
+```bash
+npm adduser --registry http://localhost:4873
+```
+
+## 登录私服
+
+```bash
+npm login --registry http://localhost:4873
+```
+
+## 发布包至私服
+
+```json title="package.json"
+{
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
+}
+```
+
+使用 `npm publish` 发布包至私服：
+
+```bash
+npm publish
+```
+
+## 部署
+
+部署至公网、配置 SSL 证书可以参考如下仓库，将域名替换为需要部署的域名即可：
+
+<SourceCode href="https://github.com/bit-ocean-studio/verdaccio" />
+
+大致过程如下：
+
+1. 启动服务：Linux 服务器通过 Git 克隆仓库，如何通过 Docker Compose 启动 Verdaccio 服务。
+2. 配置 Nginx：为 Verdaccio 配置 Nginx 反向代理。
+3. 配置域名：通过 certbot 配置域名 SSL 证书。
