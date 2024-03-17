@@ -50,7 +50,9 @@ export default defineConfig({
         mode: 'text',
         content: 'QQ: 2379312637'
       }
-    ]
+    ],
+    sourceCodeText: '源代码',
+    enableScrollToTop: true
   },
   markdown: {
     showLineNumbers: true
