@@ -1,5 +1,6 @@
 [
   "index",
+  { "type": "dir", "name": "create-project", "label": "项目搭建" },
   { "type": "dir", "name": "file-upload", "label": "文件上传" },
   { "type": "dir", "name": "deploy", "label": "部署" }
 ]
